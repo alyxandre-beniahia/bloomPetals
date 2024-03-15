@@ -1,0 +1,160 @@
+body{
+    font-family: "Ojuju", sans-serif;
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+}
+footer{
+    bottom: 0;
+    height: 4em;
+    background-color: #333;
+    margin-top: 3em;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{
+    margin-top: 2em;
+    margin-bottom: 0.625em;
+}
+form input{
+    width: 20vw;
+    height: 4vh;
+}
+form select{
+    width: 30%;
+    height: 10%;
+}
+form button{
+    width: 10%;
+}
+nav div{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    height: 100%;
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+nav ul li:last-child{
+    border: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    padding: 1em;
+    color: #8d8d8d;
+}
+a:hover{
+    color: rgb(236, 195, 202) ;
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    margin-right: 3em;
+    outline: none;
+}
+input:focus{
+    border: 10px thin #333;
+}
+hr{
+    margin: 0.625em;
+}
+.img_reposition{
+    object-position: top -2em right 0;
+}
+.img-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3em;
+}
+.img-div div img{
+    height: 30vh;
+    width: 40vh;
+    border: 3px solid #333;
+    border-radius: 2em;
+}
+.img_wrap{
+    width: 30vw;
+    text-align: center;
+}
+.form_container{
+    border: 0.625em ridge grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2em;
+}
+.checkbox_container{
+    display: flex;
+    align-items: baseline;
+}
+.index_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index_section p{
+    text-align: center;
+}
+.index_section h4{
+    text-align: center;
+}
+#team-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+#team-description article{
+    max-width: 15em;
+    text-align: center;
+}
+#team-description article div{
+    height: 10em;
+}
+#team-description article img{
+    margin-left: 2em;
+    width: 100%;
+    height: 100%;
+    border: 0.188em outset pink;
+    border-radius: 2em;
+    object-fit:cover;
+}
+#team-description article p {
+    margin-left: 6em;
+    font-size: large;
+}
+#mosaique{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#mosaique div img{
+    margin-left: 2em;
+    width: 80%;
+    height: 40vh;
+    border: 3px solid #333;
+    border-radius: 15px;
+    object-fit:cover;
+}
+
+
+  
